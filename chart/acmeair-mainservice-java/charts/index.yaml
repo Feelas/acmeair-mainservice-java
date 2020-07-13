@@ -1,0 +1,118 @@
+apiVersion: v1
+entries:
+  acmeair-authservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T11:01:49.707304078Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.9.0
+    description: A Helm chart for Kubernetes
+    digest: 185f1b57d7b76cdb95f7b7a37d3627b955bfa8bb01969a83a11580c285d7fc62
+    name: acmeair-authservice-java
+    urls:
+    - acmeair-authservice-java-0.1.0.tgz
+    version: 0.1.0
+  acmeair-bookingservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T11:01:49.716818276Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.9.0
+    - name: ibm-mongodb-dev
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.1.3
+    description: A Helm chart for Kubernetes
+    digest: 4f11d0a1fccd2a00b914fbd2e2aa13acdacb6cfe2f72c6a00ef4007c8db1cf81
+    name: acmeair-bookingservice-java
+    urls:
+    - acmeair-bookingservice-java-0.1.0.tgz
+    version: 0.1.0
+  acmeair-customerservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T11:01:49.726159532Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.9.0
+    - name: ibm-mongodb-dev
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.1.3
+    description: A Helm chart for Kubernetes
+    digest: 128b3b5cb1b8823cea25243e8d325ccb04860eef156935f6d41c3eda3b202234
+    name: acmeair-customerservice-java
+    urls:
+    - acmeair-customerservice-java-0.1.0.tgz
+    version: 0.1.0
+  acmeair-flightservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T11:01:49.73495685Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.9.0
+    - name: ibm-mongodb-dev
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.1.3
+    description: A Helm chart for Kubernetes
+    digest: 4f1748aad07b3188d7296ea006faddadba96f47fa18d9b17a70f16094cb19b50
+    name: acmeair-flightservice-java
+    urls:
+    - acmeair-flightservice-java-0.1.0.tgz
+    version: 0.1.0
+  acmeair-mainservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T11:01:49.769694379Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.9.0
+    description: A Helm chart for Kubernetes
+    digest: 93a7c33aef4fbd5b9740b3ec0846c1129c64486f9ba725b9fb388e6868f0dceb
+    name: acmeair-mainservice-java
+    urls:
+    - acmeair-mainservice-java-0.1.0.tgz
+    version: 0.1.0
+  ibm-open-liberty:
+  - apiVersion: v1
+    appVersion: 19.0.0.3
+    created: "2020-07-13T11:01:49.772407663Z"
+    dependencies:
+    - alias: slt
+      name: ibm-shared-liberty
+      repository: '@slt'
+      version: 1.9.1
+    description: Open Liberty, an open source runtime for Java microservices & cloud-native
+      apps.
+    digest: d3608a9a753111d6f2f200c4c1cdb25f22d3ea3e10fa790aa19a9d5826aa1445
+    home: https://openliberty.io
+    icon: https://raw.githubusercontent.com/OpenLiberty/open-liberty/master/images/OpenLiberty-Logo.png
+    keywords:
+    - Open Liberty
+    - Liberty
+    - runtime
+    - server
+    - microservices
+    - MicroProfile
+    - OpenSource
+    - amd64
+    - ppc64le
+    - s390x
+    - ICP
+    - IKS
+    kubeVersion: '>=1.10.11'
+    maintainers:
+    - name: Open Liberty
+    name: ibm-open-liberty
+    sources:
+    - https://github.com/IBM/charts/tree/master/stable
+    urls:
+    - ibm-open-liberty-1.9.0.tgz
+    version: 1.9.0
+generated: "2020-07-13T11:01:49.704389631Z"
