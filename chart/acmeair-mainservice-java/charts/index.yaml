@@ -3,13 +3,13 @@ entries:
   acmeair-authservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T11:01:49.707304078Z"
+    created: "2020-07-13T13:05:09.133267595Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
-      version: 1.9.0
+      version: 1.10.0
     description: A Helm chart for Kubernetes
-    digest: 185f1b57d7b76cdb95f7b7a37d3627b955bfa8bb01969a83a11580c285d7fc62
+    digest: 1580d72c52df5189839f0118521fb0144f21ad5aceb90be898733418c2d89590
     name: acmeair-authservice-java
     urls:
     - acmeair-authservice-java-0.1.0.tgz
@@ -17,16 +17,16 @@ entries:
   acmeair-bookingservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T11:01:49.716818276Z"
+    created: "2020-07-13T13:05:09.142807145Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
-      version: 1.9.0
+      version: 1.10.0
     - name: ibm-mongodb-dev
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
       version: 1.1.3
     description: A Helm chart for Kubernetes
-    digest: 4f11d0a1fccd2a00b914fbd2e2aa13acdacb6cfe2f72c6a00ef4007c8db1cf81
+    digest: 0381d686722ac34dd87b8af7ac44368f703ed139582b3f54f3f3429d0cd711fb
     name: acmeair-bookingservice-java
     urls:
     - acmeair-bookingservice-java-0.1.0.tgz
@@ -34,16 +34,16 @@ entries:
   acmeair-customerservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T11:01:49.726159532Z"
+    created: "2020-07-13T13:05:09.152926783Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
-      version: 1.9.0
+      version: 1.10.0
     - name: ibm-mongodb-dev
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
       version: 1.1.3
     description: A Helm chart for Kubernetes
-    digest: 128b3b5cb1b8823cea25243e8d325ccb04860eef156935f6d41c3eda3b202234
+    digest: 40ff8fe0db5b283f1c4c551b5061896d8ace1f8f16d25908125fb6a640da0253
     name: acmeair-customerservice-java
     urls:
     - acmeair-customerservice-java-0.1.0.tgz
@@ -51,38 +51,24 @@ entries:
   acmeair-flightservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T11:01:49.73495685Z"
+    created: "2020-07-13T13:05:09.161103034Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
-      version: 1.9.0
+      version: 1.10.0
     - name: ibm-mongodb-dev
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
       version: 1.1.3
     description: A Helm chart for Kubernetes
-    digest: 4f1748aad07b3188d7296ea006faddadba96f47fa18d9b17a70f16094cb19b50
+    digest: e817055c203f552620c3f1419686b37a06a9d35432c6ad6ba527e58900a9c639
     name: acmeair-flightservice-java
     urls:
     - acmeair-flightservice-java-0.1.0.tgz
     version: 0.1.0
-  acmeair-mainservice-java:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-07-13T11:01:49.769694379Z"
-    dependencies:
-    - name: ibm-open-liberty
-      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
-      version: 1.9.0
-    description: A Helm chart for Kubernetes
-    digest: 93a7c33aef4fbd5b9740b3ec0846c1129c64486f9ba725b9fb388e6868f0dceb
-    name: acmeair-mainservice-java
-    urls:
-    - acmeair-mainservice-java-0.1.0.tgz
-    version: 0.1.0
   ibm-open-liberty:
   - apiVersion: v1
     appVersion: 19.0.0.3
-    created: "2020-07-13T11:01:49.772407663Z"
+    created: "2020-07-13T13:05:09.163325468Z"
     dependencies:
     - alias: slt
       name: ibm-shared-liberty
@@ -115,4 +101,4 @@ entries:
     urls:
     - ibm-open-liberty-1.9.0.tgz
     version: 1.9.0
-generated: "2020-07-13T11:01:49.704389631Z"
+generated: "2020-07-13T13:05:09.130305216Z"
