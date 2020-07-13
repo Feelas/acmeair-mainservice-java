@@ -3,7 +3,7 @@ entries:
   acmeair-authservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T13:05:09.133267595Z"
+    created: "2020-07-13T13:13:51.386107978Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
@@ -17,7 +17,7 @@ entries:
   acmeair-bookingservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T13:05:09.142807145Z"
+    created: "2020-07-13T13:13:51.395756502Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
@@ -34,7 +34,7 @@ entries:
   acmeair-customerservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T13:05:09.152926783Z"
+    created: "2020-07-13T13:13:51.405763032Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
@@ -51,7 +51,7 @@ entries:
   acmeair-flightservice-java:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-13T13:05:09.161103034Z"
+    created: "2020-07-13T13:13:51.41405545Z"
     dependencies:
     - name: ibm-open-liberty
       repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
@@ -65,10 +65,24 @@ entries:
     urls:
     - acmeair-flightservice-java-0.1.0.tgz
     version: 0.1.0
+  acmeair-mainservice-java:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-13T13:13:51.418013058Z"
+    dependencies:
+    - name: ibm-open-liberty
+      repository: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
+      version: 1.10.0
+    description: A Helm chart for Kubernetes
+    digest: 0fb6069c761a8e605d6796749870c30bcc1ff9b4cfe4c092272d9e97c7120f46
+    name: acmeair-mainservice-java
+    urls:
+    - acmeair-mainservice-java-0.1.0.tgz
+    version: 0.1.0
   ibm-open-liberty:
   - apiVersion: v1
     appVersion: 19.0.0.3
-    created: "2020-07-13T13:05:09.163325468Z"
+    created: "2020-07-13T13:13:51.420403548Z"
     dependencies:
     - alias: slt
       name: ibm-shared-liberty
@@ -101,4 +115,4 @@ entries:
     urls:
     - ibm-open-liberty-1.9.0.tgz
     version: 1.9.0
-generated: "2020-07-13T13:05:09.130305216Z"
+generated: "2020-07-13T13:13:51.383205232Z"
